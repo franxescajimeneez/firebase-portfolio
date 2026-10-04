@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "458647127027",
+    "project_id": "fir-portfolio-7dd7e",
+    "storage_bucket": "fir-portfolio-7dd7e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458647127027:android:80c56c7caf9c99e8448886",
+        "android_client_info": {
+          "package_name": "io.github.franxescajimeneez.firebase_portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYGdLYXiNHte5F07br8VRqlxm7hs2nV2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
