@@ -1,6 +1,12 @@
 # Flutter Firebase Notes — Portfolio
 
-A small Flutter application demonstrating email/password authentication and a per-user notes CRUD with Cloud Firestore. This independent project is technical portfolio evidence, not a commercial product or a production-ready service.
+![Flutter Firebase Notes portfolio banner](docs/firebase-portfolio-banner.png)
+
+A focused **Flutter + Dart** portfolio app with **Firebase Authentication**, a real-time notes CRUD backed by **Cloud Firestore**, and a public Web demo deployed on **Firebase Hosting**.
+
+**[Open the live demo](https://fir-portfolio-7dd7e.web.app)**
+
+This independent project is technical portfolio evidence, not a commercial product or a production-ready service.
 
 ## Implemented features
 
