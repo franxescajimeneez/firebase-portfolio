@@ -28,7 +28,7 @@ lib/
   services/firestore_service.dart Firestore access scoped to the current user
 test/widget_test.dart             Authentication-form widget tests
 firestore.rules                  Firestore access rules
-firebase.json                    FlutterFire configuration and rules file reference
+firebase.json                    FlutterFire, Firestore rules and Hosting configuration
 android/                         Android platform sources and configuration
 web/                             Web platform sources and configuration
 ```
@@ -54,7 +54,7 @@ The four automated tests are **widget tests of the authentication form**:
 3. Switching back to sign-in.
 4. Rejecting empty email/password fields.
 
-They do not call Firebase Authentication, test the notes CRUD, verify session persistence or test Firestore Security Rules. The owner previously reported manual checks of registration, login, session behavior, logout and notes CRUD; these flows were not repeated against the live backend during this preparation.
+They do not call Firebase Authentication, test the notes CRUD, verify session persistence or test Firestore Security Rules. The owner manually verified login, note reading, creation, editing, deletion and logout on the deployed public demo after deployment on 4 October 2026. These are manual checks, not coverage provided by the four widget tests. Earlier local manual checks also included registration and session behavior.
 
 On 4 October 2026:
 
@@ -87,4 +87,8 @@ Android `local.properties`, IDE settings, caches, build output, service-account 
 
 ## Public demo
 
-No verified public Hosting demo is available yet. No Hosting deployment was performed during this preparation.
+Live Firebase Hosting demo: [Flutter Firebase Notes](https://fir-portfolio-7dd7e.web.app).
+
+The owner deployed the demo and manually verified login, reading, creating, editing and deleting notes, and logout after deployment on 4 October 2026. This confirmation is supplied by the owner; these live flows were not independently repeated by this reviewer and are not covered by the four widget tests.
+
+Hosting serves the Web build from the relative path "build/web" with a single-page application rewrite to "/index.html". No Hosting deployment was performed by this reviewer.
